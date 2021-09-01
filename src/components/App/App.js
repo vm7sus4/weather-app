@@ -1,13 +1,16 @@
 import "./App.css";
 import Search from "../Search/Search";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-    <h1>Weather App</h1>
+      <Header />
       <Search />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
