@@ -5,7 +5,7 @@ import axios from "axios";
 
 const SearchBar = () => {
   const [myCity, setCity] = useState("Mwanza");
-  const API_KEY = `${process.env.REACT_APP_OWM_API_KEY}`;
+  const API_KEY = `${process.env.REACT_APP_OWN_API_KEY}`;
   const [weatherData, setWeather] = useState([]);
 
   useEffect(() => {
