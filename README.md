@@ -4,12 +4,11 @@
 
 2. Add a .env file to the root of your project directory with the following line in it;
 
-### `REACT_APP_OWN_API_KEY=`YOUR_OPENWEATHERMAP_API_KEY`
+ ```REACT_APP_OWN_API_KEY="YOUR_OPENWEATHERMAP_API_KEY"```
 > `YOUR_OPENWEATHERMAP_API_KEY` is your private API KEY from https://openweathermap.org/api
 > This should only be used for development purposes and not deployed
 
 3. In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
